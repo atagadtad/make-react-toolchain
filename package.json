@@ -4,6 +4,7 @@
   "description": "making my own toolchain w/out creat-react app",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -21,5 +22,8 @@
     "webpack": "^4.19.1",
     "webpack-cli": "^3.1.1",
     "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "react-hot-loader": "^4.12.18"
   }
 }
